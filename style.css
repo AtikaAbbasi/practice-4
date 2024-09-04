@@ -1,0 +1,317 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    background-color: rgb(198, 225, 237);
+}
+
+
+.navbar{
+backdrop-filter: blur(10px);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+font-weight: bold;
+font-size: 1.3em;
+z-index: 50;
+
+
+}
+
+a:hover {
+height: 44px;
+width: 130px;
+background-color: rgb(112, 131, 204);
+border-radius: 12px;
+text-align: center;
+
+}
+
+.sec{
+
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.525) 0%, rgba(137, 137, 145, 0.646) 60%, rgba(241, 241, 241, 0.363) 100%),
+      url(./assents/back1.jpeg);
+ padding: 1em;  
+   padding-bottom: 14em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1em;
+  
+  
+
+}
+
+.head{
+    padding-top:3.5em ;
+   font-size: 3em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+    width: 166px;
+    margin-left: 33em;
+    margin-top: 2em;
+    background-color: rgb(112, 131, 204);
+    font-weight: bold;
+    
+  
+}
+.parent{
+  background-color: rgb(214, 212, 210);
+  padding-bottom: 3em;
+  border-radius: 7px;
+    
+
+}
+
+.child{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+
+.edit{
+    height: 300px;
+    width: 222px;
+    margin-top: 3em;
+    border-radius: 8px;
+    transition: 0.6s ease;
+
+ 
+}
+
+.edit:hover{
+    transform:scale(1.2) ;
+    border: 2px solid black;
+}
+
+.la{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1em; 
+}
+
+.part2{
+background-color: rgb(226, 179, 234);
+padding-bottom: 3em;
+border-radius: 12px;
+margin-top: 1em;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.zero{
+    height: 466px;
+    width: 366px;
+    border-radius: 10px;
+  margin-top: 1em;
+  
+}
+
+.pro{
+   /* margin-left: 5em; */
+    margin-top: 2.3em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block{
+    display:block ;
+}
+
+.two{
+    text-align: center;
+    color: white;
+    /* margin-left: 6em; */
+    margin-top: 1em;
+}
+
+.buttonn{
+    width: 177px;
+    margin-left: 16em;
+    margin-top: 2em;
+    background-color: rgb(87, 102, 163);
+    font-weight: bold;
+    border-radius: 8px;
+    height: 41px;
+
+
+}
+
+.part3{
+    display: flex;
+    background-color: rgb(219, 205, 205);
+    padding-bottom: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.four{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.six{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.part4{
+
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.148) 0%, rgba(205, 205, 219, 0.244) 0%, rgba(241, 241, 241, 0.336) 100%),
+url(https://img.freepik.com/free-photo/arrangement-with-books-beautiful-flowers_23-2148882784.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 1em;
+   padding: 1em;
+   border-radius: 13px; 
+   padding-bottom: 10em;
+}
+
+.best{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 5em;
+
+}
+
+.for{
+    text-align: center;
+    color: white;
+}
+
+.part5{
+
+    background-color: rgb(235, 185, 240);
+    padding-bottom: 3em;
+    margin-top: 1em;
+    border-radius: 17px;
+    padding-top: 2em;
+}
+
+
+
+.child2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-evenly;
+    
+   
+}
+
+.sent{
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    transition: 0.6s ease;
+}
+.sent:hover{
+    transform:scale(1.2) ;
+    border: 2px solid black;
+}
+
+.fourr{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main2{
+    background-color:rgb(181, 178, 178);
+    padding-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 20px;
+}
+
+.dflex{
+    display: flex;
+    justify-content: center;
+   padding: 2em;
+    flex-wrap: wrap;
+    gap: 4em;
+  
+}
+
+.bold{
+    border-top: 1px solid rgb(245, 242, 242);
+    margin-top: 2em;
+}
+
+.list{
+    list-style: none;
+}
+
+.fa{
+    font-size: 1.9em;
+    margin-top: 1em;
+   
+}
+
+.date{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.type{
+    height: 40px;
+    width: 255px;
+    border-radius: 14px;
+    margin-top: 2em;
+    border: none;
+}
+
+.footer{
+   height: 55px;
+   width: 100%;
+    background-color: rgb(54, 63, 158);
+    margin-top: 2em;
+    border-radius: 12px;
+
+}
+
+.copy{
+    text-align: center;
+    padding-top: 0.6em;
+    color: white;
+}
+
+
+
+/* media queies */
+
+@media (max-width:788px){
+    .button{
+        margin-left: -0.1em;
+    }
+}
+
+@media (max-width:554px){
+    .buttonn{
+        margin-left: -1em;
+    
+    }
+    .zero{
+        width: 200px;
+    }
+}
+
+@media (max-width:334px){
+
+    .dflex{
+        margin-left: -2em;
+    }
+
+    .button{
+        margin-left: 4em;
+    }
+}
